@@ -1,0 +1,82 @@
+{
+  "id": "/Butu-Special/",
+  "name": "Nanu loves Butu 🧿❤️‍🩹",
+  "short_name": "Nanu ❤️ Butu",
+  "lang": "en-IN",
+  "dir": "ltr",
+  "start_url": "/Butu-Special/?source=pwa",
+  "scope": "/Butu-Special/",
+  "display": "standalone",
+  "display_override": [
+    "window-controls-overlay",
+    "standalone",
+    "minimal-ui"
+  ],
+  "orientation": "portrait",
+  "background_color": "#fff7fb",
+  "theme_color": "#ff69a8",
+  "prefer_related_applications": false,
+  "description": "Nanu loves Butu — interactive RRB Nursing daily study, focus and growth app",
+  "categories": [
+    "education",
+    "productivity"
+  ],
+  "icons": [
+    {
+      "src": "/Butu-Special/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/Butu-Special/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Daily Mission",
+      "short_name": "Daily",
+      "url": "/Butu-Special/?view=daily",
+      "icons": [
+        {
+          "src": "/Butu-Special/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Focus Room",
+      "short_name": "Focus",
+      "url": "/Butu-Special/?view=focus",
+      "icons": [
+        {
+          "src": "/Butu-Special/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Ultimate Goals",
+      "short_name": "Goals",
+      "url": "/Butu-Special/?view=goals",
+      "icons": [
+        {
+          "src": "/Butu-Special/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "launch_handler": {
+    "client_mode": [
+      "navigate-existing",
+      "auto"
+    ]
+  }
+}
